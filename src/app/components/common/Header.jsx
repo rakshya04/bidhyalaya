@@ -9,10 +9,10 @@ import {
   BookOpen,
   Video,
   Users,
-  FolderOpen,
+  UserPlus,
   Info,
   LogIn,
-  UserPlus,
+  
   Menu,
   X,
 } from "lucide-react";
@@ -23,9 +23,8 @@ export default function Header() {
   const navLinks = [
     { name: "Home", path: "/", icon: Home },
     { name: "Courses", path: "/courses", icon: BookOpen },
-    { name: "Live Classes", path: "/live-classes", icon: Video },
-    { name: "Teachers", path: "/teachers", icon: Users },
-    { name: "Resources", path: "/resources", icon: FolderOpen },
+    { name: "Apply", path: "/apply", icon: UserPlus},
+    { name: "Contact Us", path: "/contact", icon: Users },
     { name: "About Us", path: "/about", icon: Info },
   ];
 
