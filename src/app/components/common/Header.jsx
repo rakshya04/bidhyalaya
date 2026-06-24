@@ -25,7 +25,7 @@ export default function Header() {
     { name: "Courses", path: "/courses", icon: BookOpen },
     { name: "Apply", path: "/apply", icon: UserPlus},
     { name: "Contact Us", path: "/contact", icon: Users },
-    { name: "About Us", path: "/about", icon: Info },
+   
   ];
 
   return (
@@ -101,18 +101,18 @@ export default function Header() {
             </ul>
 
             {/* DESKTOP BUTTONS */}
-            <div className="hidden lg:flex items-center gap-3">
-              <button className="flex items-center gap-2 px-4 py-2 bg-blue-500 rounded-lg text-white hover:bg-blue-800 transition">
-                <LogIn className="w-4 h-4" />
-                Login
+            <Link href="/apply">
+              <button className="bg-red-600 text-white px-4 py-2 rounded ml-4">
+                Apply Now
               </button>
+            </Link>
 
-              <button className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-800 transition">
-                <UserPlus className="w-4 h-4" />
-                Sign Up
+            <Link href="/parent-login">
+              <button className="bg-blue-800 text-white px-4 py-2 rounded ml-4">
+                Parent Login
               </button>
-            </div>
-
+            </Link>
+                      
             {/* MOBILE HAMBURGER */}
             <div className="lg:hidden ml-auto">
               <button onClick={() => setMenuOpen(!menuOpen)}>
@@ -150,12 +150,12 @@ export default function Header() {
 
                 <button className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg">
                   <LogIn className="w-4 h-4" />
-                  Login
+                  Parent Login
                 </button>
 
                 <button className="flex items-center justify-center gap-2 px-4 py-2 bg-green-500 text-white rounded-lg">
                   <UserPlus className="w-4 h-4" />
-                  Sign Up
+                  Apply Now
                 </button>
               </ul>
             </div>

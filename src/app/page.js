@@ -18,6 +18,8 @@ const page = () => {
       <TeachingMethod />
       <Testimonials />
       <ApplySpot />
+    
+      <Footer />
      
      
       
