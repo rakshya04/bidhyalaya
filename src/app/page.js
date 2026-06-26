@@ -1,30 +1,22 @@
-import React from 'react'
-import Header from './components/common/Header'
-import Footer from './components/common/Footer'
-import Hero from './components/common/homecomponents/Hero'
-import WhyParents from './components/common/homecomponents/WhyParents'
-import TeachingMethod from './components/common/homecomponents/TeachingMethod'
-import ApplySpot from './components/common/homecomponents/ApplySpot'
-import FourLevels from './components/common/homecomponents/FourLevels'
-import Testimonials from './components/common/homecomponents/Testimonials'
+import React from "react";
+import Hero from "./components/homecomponents/Hero";
+import WhyParents from "./components/homecomponents/WhyParents";
+import FourLevels from "./components/homecomponents/FourLevels";
+import TeachingMethod from "./components/homecomponents/TeachingMethod";
+import Testimonials from "./components/homecomponents/Testimonials";
+import ApplySpot from "./components/homecomponents/ApplySpot";
 
 const page = () => {
   return (
     <div>
-      
       <Hero />
       <WhyParents />
       <FourLevels />
       <TeachingMethod />
       <Testimonials />
       <ApplySpot />
-    
-      <Footer />
-     
-     
-      
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

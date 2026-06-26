@@ -12,23 +12,22 @@ export default function Hero() {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-10">
+    <section className="max-w-7xl mx-auto px-20 py-10 ">
       <div className="grid lg:grid-cols-2 gap-10 items-center">
-        
         {/* LEFT CONTENT */}
         <div>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
             Help Your Child
             <br />
-            <span className="text-red-400">Speak Nepali</span>
+            <span className="text-red-800">Speak Nepali</span>
             <br />
             With Confidence
           </h1>
 
-          <p className="mt-6 text-gray-500 text-lg leading-relaxed">
-            Interactive online classes designed for Nepali children living
-            abroad. Learn language, culture, traditions, and stay connected
-            to your roots from anywhere in the world.
+          <p className="mt-6 text-gray-500 text-lg leading-relaxed justify-content-center ">
+            Interactive online classes designed for Nepali children <br></br>living
+            abroad. Learn language, culture, traditions, and <br></br>stay connected to
+            your roots from anywhere in the world.
           </p>
 
           {/* BUTTONS */}
@@ -81,10 +80,9 @@ export default function Hero() {
             width={700}
             height={500}
             priority
-            className="rounded-2xl shadow-xl w-full max-w-xl h-auto"
+            className="rounded-2xl shadow-xl w-full max-w-xl h-auto mb-15"
           />
         </div>
-
       </div>
     </section>
   );

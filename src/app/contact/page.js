@@ -1,10 +1,9 @@
 import React from 'react'
-import ParentLogin from '../components/ParentLogin'
-
+import Contact from '../components/Contact'
 const page = () => {
   return (
     <div>
-      <ParentLogin />
+      <Contact />
     </div>
   )
 }

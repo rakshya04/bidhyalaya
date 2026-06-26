@@ -14,12 +14,12 @@ const features = [
     description:
       "Morning to evening, weekdays and weekends — we fit your family's schedule wherever you live.",
   },
- {
-  icon: BadgeCheck,
-  title: "Native Nepali educators",
-  description:
-    "Every teacher is a native speaker with formal training in child education and Nepali language.",
-},
+  {
+    icon: BadgeCheck,
+    title: "Native Nepali educators",
+    description:
+      "Every teacher is a native speaker with formal training in child education and Nepali language.",
+  },
   {
     icon: Star,
     title: "Culture, not just language",
@@ -48,18 +48,18 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-6 bg-white">
       <div className="max-w-8xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center justify-center mb-10">
           <p className="uppercase tracking-[4px] text-red-700 text-lg font-semibold mb-4">
             Why Parents Choose Us
           </p>
 
-          <h2 className="text-4xl md:text-4xl font-bold text-slate-900 mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold text-slate-900 mb-4">
             More than a language class
           </h2>
-
+          <div className="w-20 h-1 bg-red-800 mx-auto mt-2 rounded-full mb-4" />
           <p className="max-w-3xl mx-auto text-md text-gray-600">
             We combine proven language pedagogy with genuine Nepali culture so
             children feel connected to their roots.
@@ -77,10 +77,10 @@ export default function WhyChooseUs() {
                 className="border border-gray-200 rounded-3xl p-8 hover:shadow-lg transition-all duration-300"
               >
                 <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center mb-6">
-                  <Icon size={28} className="text-blue-900" />
+                  <Icon size={28} className="text-blue-700" />
                 </div>
 
-                <h3 className="text-1xl font-semibold text-purple-800 mb-4">
+                <h3 className="text-1xl font-semibold text-red-800 mb-4">
                   {feature.title}
                 </h3>
 
